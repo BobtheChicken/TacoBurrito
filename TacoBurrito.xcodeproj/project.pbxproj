@@ -30,12 +30,21 @@
 		842A266A183339D100724B06 /* gg-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A2668183339D100724B06 /* gg-hd.png */; };
 		842A266B183339D100724B06 /* gg.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A2669183339D100724B06 /* gg.png */; };
 		842A266E18333B0200724B06 /* GG.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A266D18333B0200724B06 /* GG.m */; };
+		845264A81858065300CE14E3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845264A71858065300CE14E3 /* GameKit.framework */; };
 		84A4D6CB1834779B006B1C93 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4D6CA1834779B006B1C93 /* white.png */; };
 		84A4D6CE18347C12006B1C93 /* Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4D6CD18347C12006B1C93 /* Title.m */; };
 		84A4D6D118347C6A006B1C93 /* titlescreen-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4D6CF18347C6A006B1C93 /* titlescreen-hd.png */; };
 		84A4D6D218347C6A006B1C93 /* titlescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4D6D018347C6A006B1C93 /* titlescreen.png */; };
 		84A4D6D518347D8B006B1C93 /* start-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4D6D318347D8B006B1C93 /* start-hd.png */; };
 		84A4D6D618347D8B006B1C93 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4D6D418347D8B006B1C93 /* start.png */; };
+		84B901E5185FD87A00FD22E5 /* taco7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84B901E1185FD87A00FD22E5 /* taco7.gif */; };
+		84B901E6185FD87A00FD22E5 /* taco8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901E2185FD87A00FD22E5 /* taco8.jpg */; };
+		84B901E7185FD87A00FD22E5 /* taco9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901E3185FD87A00FD22E5 /* taco9.jpg */; };
+		84B901E8185FD87A00FD22E5 /* taco10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901E4185FD87A00FD22E5 /* taco10.jpg */; };
+		84B901ED185FD88400FD22E5 /* burrito7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901E9185FD88400FD22E5 /* burrito7.jpg */; };
+		84B901EE185FD88400FD22E5 /* burrito8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901EA185FD88400FD22E5 /* burrito8.jpg */; };
+		84B901EF185FD88400FD22E5 /* burrito9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901EB185FD88400FD22E5 /* burrito9.jpg */; };
+		84B901F0185FD88400FD22E5 /* burrito10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B901EC185FD88400FD22E5 /* burrito10.jpg */; };
 		DC1BE6A014F417CC00F49D25 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1BE68C14F417CC00F49D25 /* Ubuntu-B.ttf */; };
 		DC1BE6A114F417CC00F49D25 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1BE68D14F417CC00F49D25 /* Ubuntu-BI.ttf */; };
 		DC1BE6A214F417CC00F49D25 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1BE68E14F417CC00F49D25 /* Ubuntu-C.ttf */; };
@@ -124,6 +133,7 @@
 		842A2669183339D100724B06 /* gg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gg.png; sourceTree = "<group>"; };
 		842A266C18333B0200724B06 /* GG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GG.h; sourceTree = "<group>"; };
 		842A266D18333B0200724B06 /* GG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GG.m; sourceTree = "<group>"; };
+		845264A71858065300CE14E3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
 		84A4D6CA1834779B006B1C93 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		84A4D6CC18347C12006B1C93 /* Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Title.h; sourceTree = "<group>"; };
 		84A4D6CD18347C12006B1C93 /* Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Title.m; sourceTree = "<group>"; };
@@ -131,6 +141,14 @@
 		84A4D6D018347C6A006B1C93 /* titlescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlescreen.png; sourceTree = "<group>"; };
 		84A4D6D318347D8B006B1C93 /* start-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-hd.png"; sourceTree = "<group>"; };
 		84A4D6D418347D8B006B1C93 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		84B901E1185FD87A00FD22E5 /* taco7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = taco7.gif; sourceTree = "<group>"; };
+		84B901E2185FD87A00FD22E5 /* taco8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taco8.jpg; sourceTree = "<group>"; };
+		84B901E3185FD87A00FD22E5 /* taco9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taco9.jpg; sourceTree = "<group>"; };
+		84B901E4185FD87A00FD22E5 /* taco10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taco10.jpg; sourceTree = "<group>"; };
+		84B901E9185FD88400FD22E5 /* burrito7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrito7.jpg; sourceTree = "<group>"; };
+		84B901EA185FD88400FD22E5 /* burrito8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrito8.jpg; sourceTree = "<group>"; };
+		84B901EB185FD88400FD22E5 /* burrito9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrito9.jpg; sourceTree = "<group>"; };
+		84B901EC185FD88400FD22E5 /* burrito10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrito10.jpg; sourceTree = "<group>"; };
 		DC1BE68614F417CC00F49D25 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
 		DC1BE68914F417CC00F49D25 /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
 		DC1BE68C14F417CC00F49D25 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
@@ -207,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845264A81858065300CE14E3 /* GameKit.framework in Frameworks */,
 				DC65615C13A969B600A7AC53 /* libbox2d-ios.a in Frameworks */,
 				DC65615D13A969B600A7AC53 /* libchipmunk-ios.a in Frameworks */,
 				DC65615E13A969B600A7AC53 /* libchipmunk-spacemanager-ios.a in Frameworks */,
@@ -240,6 +259,10 @@
 		842A263D183331C800724B06 /* Burrito */ = {
 			isa = PBXGroup;
 			children = (
+				84B901E9185FD88400FD22E5 /* burrito7.jpg */,
+				84B901EA185FD88400FD22E5 /* burrito8.jpg */,
+				84B901EB185FD88400FD22E5 /* burrito9.jpg */,
+				84B901EC185FD88400FD22E5 /* burrito10.jpg */,
 				842A263E183331C800724B06 /* burrito1.png */,
 				842A263F183331C800724B06 /* burrito2.jpg */,
 				842A2640183331C800724B06 /* burrito3.jpg */,
@@ -259,6 +282,10 @@
 				842A265B183331E800724B06 /* taco4.jpg */,
 				842A265C183331E800724B06 /* taco5.png */,
 				842A265D183331E800724B06 /* taco6.jpg */,
+				84B901E1185FD87A00FD22E5 /* taco7.gif */,
+				84B901E2185FD87A00FD22E5 /* taco8.jpg */,
+				84B901E3185FD87A00FD22E5 /* taco9.jpg */,
+				84B901E4185FD87A00FD22E5 /* taco10.jpg */,
 			);
 			path = Tacos;
 			sourceTree = "<group>";
@@ -288,6 +315,7 @@
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
+				845264A71858065300CE14E3 /* GameKit.framework */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -563,6 +591,14 @@
 				84A4D6D218347C6A006B1C93 /* titlescreen.png in Resources */,
 				84A4D6D518347D8B006B1C93 /* start-hd.png in Resources */,
 				84A4D6D618347D8B006B1C93 /* start.png in Resources */,
+				84B901E5185FD87A00FD22E5 /* taco7.gif in Resources */,
+				84B901E6185FD87A00FD22E5 /* taco8.jpg in Resources */,
+				84B901E7185FD87A00FD22E5 /* taco9.jpg in Resources */,
+				84B901E8185FD87A00FD22E5 /* taco10.jpg in Resources */,
+				84B901ED185FD88400FD22E5 /* burrito7.jpg in Resources */,
+				84B901EE185FD88400FD22E5 /* burrito8.jpg in Resources */,
+				84B901EF185FD88400FD22E5 /* burrito9.jpg in Resources */,
+				84B901F0185FD88400FD22E5 /* burrito10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

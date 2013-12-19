@@ -123,6 +123,13 @@
 
 -(void) gameover
 {
+    if(score > [[NSUserDefaults standardUserDefaults] integerForKey:@"highscore"])
+    {
+        [[NSUserDefaults standardUserDefaults] setInteger:score forKey:@"highscore"];
+    }
+    
+    
+    [[NSUserDefaults standardUserDefaults] setInteger:score forKey:@"score"];
     [[CCDirector sharedDirector] replaceScene: (CCScene*)[[GG alloc] init]];
     
 }
@@ -155,7 +162,7 @@
         
         while(random == previousimage)
         {
-        random = arc4random() % 6;
+        random = arc4random() % 10;
         }
         
         previousimage = random;
@@ -184,7 +191,23 @@
         {
             image = [CCSprite spriteWithFile:@"taco6.jpg"];
         }
-        
+        if(random == 6)
+        {
+            image = [CCSprite spriteWithFile:@"taco7.gif"];
+        }
+        if(random == 7)
+        {
+            image = [CCSprite spriteWithFile:@"taco8.jpg"];
+        }
+        if(random == 8)
+        {
+            image = [CCSprite spriteWithFile:@"taco9.jpg"];
+        }
+        if(random == 9)
+        {
+            image = [CCSprite spriteWithFile:@"taco10.jpg"];
+        }
+       
         
 
     }
@@ -199,7 +222,7 @@
         
         while(random == previousimage)
         {
-            random = arc4random() % 6;
+            random = arc4random() % 10;
         }
         
         previousimage = random;
@@ -227,6 +250,22 @@
         if(random == 5)
         {
             image = [CCSprite spriteWithFile:@"burrito6.jpg"];
+        }
+        if(random == 6)
+        {
+            image = [CCSprite spriteWithFile:@"burrito7.jpg"];
+        }
+        if(random == 7)
+        {
+            image = [CCSprite spriteWithFile:@"burrito8.jpg"];
+        }
+        if(random == 8)
+        {
+            image = [CCSprite spriteWithFile:@"burrito9.jpg"];
+        }
+        if(random == 9)
+        {
+            image = [CCSprite spriteWithFile:@"burrito10.jpg"];
         }
 
     }
